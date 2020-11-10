@@ -1,6 +1,6 @@
 class Game
 
-  attr_reader     :which_round, :active_player
+  attr_reader :active_player
 
   def initialize
     @active_player = nil
