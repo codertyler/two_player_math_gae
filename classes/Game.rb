@@ -56,11 +56,11 @@ class Game
 
         if question.correct?(answer)
           puts "#{@active_player.name} : YES! You are correct."
-          puts "#{@players[0].name[1,0]} : #{@players[0].life}/3 vs #{@players[1].name[1,0]} : #{@players[1].life}/3"
+          puts "P#{@players[0].name[-1,1]} : #{@players[0].life}/3 vs P#{@players[1].name[-1,1]} : #{@players[1].life}/3"
         else
           puts "#{@active_player.name} : Seriously? No!"
           @active_player.minuslife
-          puts "#{@players[0].name[1,0]} : #{@players[0].life}/3 vs #{@players[1].name[1,0]} : #{@players[1].life}/3"
+          puts "P#{@players[0].name[-1,1]} : #{@players[0].life}/3 vs P#{@players[1].name[-1,1]} : #{@players[1].life}/3"
         end
     end
 end
