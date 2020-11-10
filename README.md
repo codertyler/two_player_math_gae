@@ -1,6 +1,6 @@
 # Two player addition game
 
-It is a simple game built on ruby with pry gem.
+It is a simple game built on Ruby.
 
 # Instructions
 
